@@ -1,13 +1,13 @@
 import { UserType } from "./user";
 
 export class DB {
-      private users: UserType[] = [];
+    private users: UserType[] = [];
 
-      insertUser(user: UserType): void {
-            this.users.push(user);
-      }
+    insertUser(user: UserType): void {
+        this.users.push(user);
+    }
 
-      getAllUsers(): UserType[] {
-            return this.users;
-      }
+    getAllUsers(): UserType[] {
+        return this.users;
+    }
 }
